@@ -1,5 +1,6 @@
 from typing import Tuple, Optional, Dict, Any
 
+from khanh_nguyen_code.player import KhanhPlayer
 from package.player import NicePlayer, RandomPlayer, FreakyPlayer, NastyPlayer, Tit4TatPlayer, Player
 
 C = 0
@@ -53,6 +54,7 @@ if __name__ == "__main__":
         2: RandomPlayer(),
         3: FreakyPlayer(),
         4: Tit4TatPlayer(),
+        5: KhanhPlayer(),
     }
-    score = run_match(player_pool=pool, player_id=(2, 3, 4))
+    score = run_match(player_pool=pool, player_id=(3, 4, 5))
     print(score)
