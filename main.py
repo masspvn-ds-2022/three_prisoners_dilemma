@@ -1,6 +1,6 @@
 from typing import Tuple, Optional, Dict, Any
 
-from package.player import NicePlayer, RandomPlayer, FreakyPlayer, NastyPlayer, Tit4TatPlayer
+from package.player import NicePlayer, RandomPlayer, FreakyPlayer, NastyPlayer, Tit4TatPlayer, Player
 
 C = 0
 D = 1
